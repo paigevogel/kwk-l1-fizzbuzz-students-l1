@@ -1,2 +1,3 @@
-if %3==0 
+
+if 
   puts "fizz"
