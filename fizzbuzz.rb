@@ -1,5 +1,4 @@
 def fizzbuzz(int)
-  int = gets.chomp
   if int % 3 == 0
     return "Fizz"
   elsif int % 5 == 0
@@ -9,4 +8,4 @@ def fizzbuzz(int)
   else
     return nil
   end
-fizzbuzz
+fizzbuzz(30)
