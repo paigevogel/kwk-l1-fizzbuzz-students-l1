@@ -1,4 +1,5 @@
-def fizzbuzz(30)
+def fizzbuzz
+  int=gets.chomp
   if int %3==0
     puts "Fizz"
   elsif int %5==0
@@ -6,4 +7,4 @@ def fizzbuzz(30)
   elsif int %3==0 && %5==0 
   puts "FizzBuzz"
 end
-fizzbuzz()
+fizzbuzz
