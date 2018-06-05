@@ -1,4 +1,4 @@
-def fizzbuzz
+def fizzbuzz(a)
   if int %3==0
     puts "Fizz"
   elsif int %5==0
